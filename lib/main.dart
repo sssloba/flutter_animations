@@ -13,8 +13,10 @@ class MainApp extends StatelessWidget {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       theme: ThemeData(
-          scaffoldBackgroundColor: Colors.amber,
-          appBarTheme: const AppBarTheme(backgroundColor: Colors.amberAccent)),
+        scaffoldBackgroundColor: Colors.amber,
+        appBarTheme: const AppBarTheme(backgroundColor: Colors.amberAccent),
+        drawerTheme: const DrawerThemeData(backgroundColor: Colors.amber),
+      ),
       title: 'Flutter Animations',
       home: const HomePage(),
     );
