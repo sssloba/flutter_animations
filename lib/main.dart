@@ -14,7 +14,10 @@ class MainApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       theme: ThemeData(
         scaffoldBackgroundColor: Colors.amber,
-        appBarTheme: const AppBarTheme(backgroundColor: Colors.amberAccent),
+        appBarTheme: const AppBarTheme(
+          backgroundColor: Colors.amberAccent,
+          centerTitle: true,
+        ),
         drawerTheme: const DrawerThemeData(backgroundColor: Colors.amber),
       ),
       title: 'Flutter Animations',
