@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_animations/screens/animated_container_demo.dart';
 import 'package:flutter_animations/screens/home_page.dart';
+import 'package:flutter_animations/screens/sine_curve_demo.dart';
 import 'package:flutter_animations/widgets/drawer_tile.dart';
 
 class AppDrawer extends StatelessWidget {
@@ -12,7 +13,8 @@ class AppDrawer extends StatelessWidget {
       child: ListView(
         children: const [
           DrawerTile('Home Page', HomePage()),
-          DrawerTile('Animated Container Demo', AnimatedContainerDemo())
+          DrawerTile('Animated Container Demo', AnimatedContainerDemo()),
+          DrawerTile('Sine Curve Demo', SineCurveDemo())
         ],
       ),
     );
