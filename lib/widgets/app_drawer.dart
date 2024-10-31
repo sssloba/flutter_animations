@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_animations/screens/animated_container_demo.dart';
+import 'package:flutter_animations/screens/animated_icons_demo.dart';
 import 'package:flutter_animations/screens/home_page.dart';
 import 'package:flutter_animations/screens/sine_curve_demo.dart';
 import 'package:flutter_animations/widgets/drawer_tile.dart';
@@ -14,6 +15,7 @@ class AppDrawer extends StatelessWidget {
         children: const [
           DrawerTile('Home Page', HomePage()),
           DrawerTile('Animated Container Demo', AnimatedContainerDemo()),
+          DrawerTile('Animated Icons Demo', AnimatedIconsDemo()),
           DrawerTile('Sine Curve Demo', SineCurveDemo())
         ],
       ),
